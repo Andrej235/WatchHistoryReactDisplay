@@ -1,0 +1,7 @@
+@use "../libraries/ColorPalette.scss" as *;
+
+.song-display{
+    h1{
+        color: $primary-text;
+    }
+}
