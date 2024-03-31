@@ -1,6 +1,6 @@
-import "./SongDisplay.scss";
+import "./SingleSongDisplay.scss";
 
-export default function SongDisplay() {
+export default function SingleSongDisplay() {
   return (
     <div className="song-display">
       <h1>Song name</h1>
