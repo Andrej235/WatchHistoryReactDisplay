@@ -1,7 +1,7 @@
-@use "../libraries/ColorPalette.scss" as *;
+@use "../../Libraries/ColorPalette.scss" as *;
 
-.song-display{
-    h1{
-        color: $primary-text;
-    }
+.song-display {
+  h1 {
+    color: $primary-text;
+  }
 }

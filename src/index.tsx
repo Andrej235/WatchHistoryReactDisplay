@@ -11,16 +11,13 @@ const router = createBrowserRouter([
     element: <div>Hello world!</div>,
   },
   {
-    path: "/searchresults/:searchterm",
+    path: "/search/:searchterm",
     element: <SearchResults />,
     loader: searchResultsLoader,
   },
 ]);
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
-root.render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
